@@ -1,0 +1,22 @@
+<ion-content class="ion-padding">
+
+  <div id="logo-div">
+    <ion-text color="medium">
+      <img src="../../../assets/icon/silent_hill_3_halo_of_the_sun___halo_del_sol_by_deg5270_dcvd5pz-fullview.png">
+      <h3>iFinanças</h3>
+    </ion-text>
+  </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  <ion-item>
+    <ion-icon name ="mail" color="if" slot="start"></ion-icon>
+    <ion-input [(ngModel)]="email" type="email" color="if" placeholder="E-mail" autofocus="true"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name ="lock-closed" color="if" slot="start"></ion-icon>
+    <ion-input [(ngModel)]="password" type="password" color="if" placeholder="Senha"></ion-input>
+  </ion-item><br/><br/>
+
+  <ion-button (click)="validate()" expand="block" color="if" fill="clear">Enviar</ion-button>
+
+</ion-content>

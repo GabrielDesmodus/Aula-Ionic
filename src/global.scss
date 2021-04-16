@@ -24,3 +24,13 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+/** if */
+.ion-color-if {
+    --ion-color-base: var(--ion-color-if);
+    --ion-color-base-rgb: var(--ion-color-if-rgb);
+    --ion-color-contrast: var(--ion-color-if-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-if-contrast-rgb);
+    --ion-color-shade: var(--ion-color-if-shade);
+    --ion-color-tint: var(--ion-color-if-tint);
+  }
